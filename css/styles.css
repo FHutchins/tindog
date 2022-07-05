@@ -1,0 +1,272 @@
+/************** GENERAL SELECTORS ***************/
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/***** HEADINGS *****/
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 50px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/***** COLOUR SCHEME *****/
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/***** NAVIGATION BAR *****/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.download-button:hover {
+  opacity: 0.9;
+}
+
+.download-button:hover a{
+  opacity: 1;
+}
+
+.download-button-white {
+  margin: 5% 3% 5% 0;
+}
+
+.download-button-white:hover a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* sign up buttons */
+.signup-button {
+  margin: 5% 3% 5% 0;
+  padding: 3% 30%;
+}
+
+.signup-button:hover {
+  opacity: 0.8;
+}
+
+.signup-button-white {
+  margin: 5% 3% 5% 0;
+  padding: 3% 30%;
+}
+
+.signup-button-white:hover a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+/***** TITLE SECTION *****/
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+.phone-img {
+  position: absolute;
+  transform: rotate(25deg);
+  overflow: hidden;
+}
+
+/***** FEATURES SECTION *****/
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/***** TESTIMONIALS SECTION *****/
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-heading {
+  font-size: 1.5rem;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/***** PRESS SECTION *****/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 10px 50px;
+}
+
+/***** PRICING SECTION *****/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/***** FOOTER SECTION *****/
+
+#footer p {
+  margin-top: 50px;
+}
+
+.footer-icons {
+  color: black;
+  padding: 10px;
+}
+
+/********** RETURN TO TOP **********/
+.top-button {
+  background-color: #8f8f8f;
+  border-radius: 10%;
+  opacity: 0.2;
+  padding: 10px;
+  position: absolute;
+  right: 100px;
+}
+
+.top-button:hover {
+  opacity: 0.5;
+}
+
+
+/********** PLACEHOLDER **********/
+#placeholder .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: center;
+}
+
+.gif-img {
+  margin-top: 100px;
+}
+
+/***** MEDIA QUERY *****/
+@media (max-width: 1175px) {
+  h1 {
+    text-align: center;
+  }
+
+ /* title section */
+  .phone-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title .download-button,.download-button-white {
+    display: block;
+    margin: 5% auto 5% auto;
+  }
+
+
+  /* testimonial section */
+  .testimonial-text {
+    font-size: 2rem;
+  }
+
+  .testimonial-img {
+    width: 15%;
+  }
+}
+
+@media (max-width: 640px) {
+  .testimonial-img {
+    width: 20%;
+  }
+
+  .top-button {
+    margin-top: 10px;
+  }
+}
